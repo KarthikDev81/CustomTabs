@@ -1,0 +1,43 @@
+/* --------------------------------------------------------------------------------------
+|	AUTHOR 		: Karthik. N                                                    |
+|	LOCATION	: Chennai, Tamil Nadu, India.                                   |
+|	DESCRIPTION	: This plugin is designed for Simple Tab Concept with minimal Javascript Code                    |
+----------------------------------------------------------------------------------------- */
+
+*{margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#333; letter-spacing:0.04em; white-space:normal;}
+.txt-center{text-align:center}
+.txt-right{text-align:right}
+.txt-left{text-align:left}
+
+ul,li{list-style:none; margin:0;}
+a,a:active,a:hover,a:focus,img,input,button,textarea,button,button:focus{outline:0 none; text-decoration:none;}
+a, a:hover,.scrollable-table .table > thead > tr > th,.scrollable-table .table > tbody > tr > td{word-wrap:break-word;}
+select:focus,.slick-list:focus,.slick-prev:focus,.slick-next:focus,.btn-switch:focus{outline:none}
+table{border-collapse:collapse; vertical-align:top; width:100%}
+input,button{overflow:visible}
+button,input[type="submit"]{cursor:pointer}
+strong,b,b i{font-size:inherit; color:inherit; font-weight:400}
+
+.page-tab a:before{-webkit-transition:all 300ms ease-in-out; -moz-transition:all 300ms ease-in-out; -o-transition:all 300ms ease-in-out; transition:all 300ms ease-in-out}
+.page-tab a:before{-webkit-transform:scale(0); -moz-transform:scale(0); -o-transform:scale(0); transform:scale(0)}
+.page-tab a:hover:before,.page-tab a.select:before{-webkit-transform:scale(1); -moz-transform:scale(1); -o-transform:scale(1); transform:scale(1)}
+
+a{display:inline-block;}
+.page-tab{margin-top:15px;}
+.page-tab a{position:relative;}
+.page-tab a:before{position:absolute;}
+.page-tab a:before{content:'';}
+.page-tab a:before{bottom:-2px;}
+.page-tab a:before{left:0;}
+.page-tab a:before{width:100%;}
+.page-tab a:before{height:3px;}
+.page-tab a:before{visibility:hidden;}
+.page-tab a:hover:before,.page-tab a.select:before{visibility:visible;}
+.page-tab{border-bottom:1px solid #ccc;}
+.page-tab a{font-size:16px;}
+.page-tab a{text-transform:uppercase;}
+.page-tab a:hover{color:#666;}
+.page-tab a{color:#7f7f7f;}
+.page-tab{margin-bottom:10px;}
+.page-tab a{padding:10px 15px;}
+.page-tab a:hover:before,.page-tab a.select:before{background-color:#41cb52;}
